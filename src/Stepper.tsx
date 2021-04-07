@@ -43,7 +43,7 @@ function getStepContent(stepIndex: number, handleNext: () => void) {
 export default function StepperFunction() {
     const classes = useStyles();
     const steps = getsteps();
-    const [activeStep, setActiveStep] = useState(3);
+    const [activeStep, setActiveStep] = useState(0);
 
 
     const handleNext = () => {
